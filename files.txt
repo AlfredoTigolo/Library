@@ -1,0 +1,15 @@
+BETA_Library_Web_Search_Documentation.doc
+Chapter8.php
+files.txt
+frames.html
+help.html
+index.html
+index2.html
+Inventory.html
+Library2.php
+Library3.php
+MainMenu.html
+OtherTables.html
+results.html
+_odbc2access.php
+_utils.php

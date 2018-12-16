@@ -1,0 +1,34 @@
+<!--
+Date: 11-20-08
+File name: start2.html
+Description: Another Table
+-->
+<html>
+<head>
+<title>BETA Library Web Search</title>
+</head>
+<body>
+<h2>Books Inventory Tables</h2>
+<ul>
+	<li><a href="MainMenu.html">Back to Main Menu</a></li>
+</ul>
+<form action="Library3.php" method="POST" target="dynamic">
+	Author<input type="text" name="author">
+<br>
+	Title<input type="text" name="title">
+<br>
+	Location<input type="text" name="loc">
+<br>
+	<!--<select name="tables[]" multiple> -->
+	<select name="tables[]" >
+		<option>AVLIB
+		<option>Checked Out Books
+		<option>Book Inventory
+		<option>Book, Author, or Location Search
+		<option>Books Checked out to Students
+	</select>
+<input type="submit" value="Search">
+</form>
+
+</body>
+</html>

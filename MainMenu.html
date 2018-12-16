@@ -1,0 +1,30 @@
+<!--
+Date: 11-20-08
+File name: MainMenu.html
+Description: This start is where the BETA Library Web Search is suppose to start.
+Now it incorporates frame options.
+-->
+<html>
+<head>
+<title>BETA Library Web Search</title>
+</head>
+<body>
+<h1>Main Menu</h1>
+<ul>
+	<li><a href="BooksInventory.html">Books Inventory</a></li>
+	<li><a href="Inventory.html">Inventory</a></li>
+</ul>
+<form action="Library2.php" method="POST" target="dynamic">
+	Author<input type="text" name="author">
+	<br>
+	Title<input type="text" name="title">
+	<br>
+	Bar Code<input type="text" name="bc">	
+	<br>
+	<!--Dewey Decimal<input type="text" name="ddc">	
+	<br> narrows the search too much-->
+<input type="submit" value="Search">
+</form>
+
+</body>
+</html>
